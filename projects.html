@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projects</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* Navbar */
+
+nav{
+background:#020617;
+padding:15px 50px;
+}
+
+nav ul{
+display:flex;
+justify-content:flex-end;
+list-style:none;
+}
+
+nav ul li{
+margin-left:30px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:18px;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:#38bdf8;
+}
+
+/* Projects Section */
+
+section{
+padding:80px 100px;
+}
+
+section h2{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+color:#38bdf8;
+}
+
+/* Projects Grid */
+
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+gap:30px;
+}
+
+/* Project Card */
+
+.project-card{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.project-card h3{
+margin-bottom:10px;
+color:#38bdf8;
+}
+
+.project-card p{
+color:#cbd5f5;
+line-height:1.6;
+}
+
+.project-card:hover{
+transform:translateY(-8px);
+background:#334155;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+margin-top:50px;
+color:#94a3b8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<section>
+
+<h2>My Projects</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+<h3>Portfolio Website</h3>
+<p>Responsive personal portfolio website.</p>
+</div>
+
+<div class="project-card">
+<h3>Farmer Weather Support</h3>
+<p>Real time weather forecasting web app.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Shaik Apsana Portfolio
+</footer>
+
+</body>
+</html>
